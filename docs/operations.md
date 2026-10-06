@@ -64,3 +64,7 @@ Bulk edit: choose the shared fields to replace. Only ticked fields change; a tic
 Bulk delete: review the selected names, tick the explicit deletion confirmation and submit. Only the listed IDs are deleted. Active-database deletion is permanent. Backups may retain copies.
 
 Existing individual edit/delete controls remain available. Required staging checks: no selection, mixed checkbox selection, selecting all on a page, leaving fields untouched, clearing an explicit field, rejecting name mass changes, rejecting duplicate rows, stale preview, deletion confirmation, permission/nonce failure, and partial database failures. PHP database execution remains unverified in the preparation environment.
+
+## GitHub verification update
+
+GitHub Actions passed PHP syntax and standalone import/bulk-input regression tests on both PHP 7.0 and PHP 8.3 on 6 October 2026. Earlier preparation-environment notes describe the checks available at that time. Full WordPress activation/database/permissions/caching and rendered mobile checks are still pending.

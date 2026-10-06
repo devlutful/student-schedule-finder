@@ -6,7 +6,7 @@ Built by Lutful Ahmed for schools, dance studios and event organisers who want t
 
 ## Release status
 
-Release candidate 1.3.0. JavaScript logic checks passed in the preparation environment. PHP regression tests, WordPress integration testing and Plugin Check remain pending. This is not a WordPress.org-approved release.
+Release candidate 1.3.0. JavaScript logic checks passed in the preparation environment. PHP syntax and standalone import/bulk-input regressions passed on GitHub Actions using PHP 7.0 and 8.3. WordPress integration testing and Plugin Check remain pending. This is not a WordPress.org-approved release.
 
 ## Features
 
