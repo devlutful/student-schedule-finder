@@ -21,7 +21,7 @@ Release candidate 1.3.0. JavaScript logic checks passed in the preparation envir
 
 ## Install
 
-Download the installable student-schedule-finder.zip from a published release, upload it through Plugins > Add New > Upload Plugin and activate. Use a staging site first. Open Student Schedules to manage/import records, then add `[student_lookup]` in a Shortcode block or Elementor Shortcode widget. Use HTTPS and exclude the lookup page and AJAX endpoint from caching.
+Download the [installable student-schedule-finder.zip](dist/student-schedule-finder.zip?raw=true), upload it through Plugins > Add New > Upload Plugin and activate. Use a staging site first. Open Student Schedules to manage/import records, then add `[student_lookup]` in a Shortcode block or Elementor Shortcode widget. Use HTTPS and exclude the lookup page and AJAX endpoint from caching.
 
 Migrating from Student Schedule Lookup: deactivate the old plugin first. The existing data table and shortcode are retained.
 
@@ -33,7 +33,7 @@ Matching is case-sensitive, with whitespace normalisation. Partial names do not 
 
 ## Import and bulk management
 
-Use [demo-data.csv](demo-data.csv) as a template. Limits: 2 MB and 1,000 nonempty students. CSV supports comma, semicolon and tab delimiters; UTF-8 and BOM-marked UTF-16. Excel reads the first worksheet and requires PHP ZIP and SimpleXML. Old .xls files are not supported. Unsupported Excel date formats prompt a CSV fallback.
+Use [demo-data.csv](demo-data.csv) as a template. The distributed sample and test fixtures are fictional and contain no uploaded student records. Limits: 2 MB and 1,000 nonempty students. CSV supports comma, semicolon and tab delimiters; UTF-8 and BOM-marked UTF-16. Excel reads the first worksheet and requires PHP ZIP and SimpleXML. Old .xls files are not supported. Unsupported Excel date formats prompt a CSV fallback.
 
 Imports skip identical rows and never overwrite existing records. Bulk edit changes only ticked fields; ticked blank values clear fields. Names are edited individually. Select all covers the current page of 25 records. Bulk deletion requires confirmation.
 
